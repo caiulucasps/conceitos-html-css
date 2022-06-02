@@ -1,0 +1,35 @@
+div {
+    width: 250px;
+    height: 250px;
+
+    background-color: #f00;
+}
+
+#verde {
+    background-color: #0f0;
+}
+
+#alto {
+    height: 350px;
+}
+
+.azul {
+    background-color: #00f;
+}
+
+.pequeno {
+    width: 150px;
+}
+
+.grande {
+    width: 350px;
+}
+
+.maiusculas {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.minusculas {
+    text-transform: lowercase;
+}
