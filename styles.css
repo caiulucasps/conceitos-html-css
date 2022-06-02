@@ -1,0 +1,22 @@
+/* O color muda a cor de todo mundo dentro do body */
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #0f0;
+    color: #000;
+}
+
+img {
+    width: 500px;
+}
+
+footer {
+    background-color: #f00;
+}
+
+a {
+    color: #ff0;
+}
