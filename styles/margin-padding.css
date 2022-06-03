@@ -1,0 +1,32 @@
+div {
+    background-color: #0ff;
+    min-height: 32px;
+}
+
+.margin-p {
+    margin: 16px;
+    background-color: #ff0;  
+}
+
+.margin-m {
+    margin: 32px 64px 128px 16px;
+    background-color: #f0f;  
+}
+
+.margin-g {
+    margin-right: 48px;
+    margin-left: 48px;
+    background-color: #000;  
+}
+
+.padding-p {
+    padding-bottom: 16px;
+}
+
+.padding-m {
+    padding: 32px 64px 128px 16px;
+}
+
+.padding-g {
+    padding-top: 48px;
+}
