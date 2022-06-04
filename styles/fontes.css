@@ -1,0 +1,32 @@
+.titulo {
+    font-family: 'Nunito';
+    color: purple;
+}
+
+span {
+    color: orange;
+}
+
+span.verde {
+    color: #0f0;
+}
+
+.paragrafo {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-weight: bold;
+    text-transform: uppercase;
+
+    text-align: center;
+    text-decoration: underline overline #f00;
+}
+
+.conteudo {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    line-height: 6px;
+
+    text-align: justify;
+}
