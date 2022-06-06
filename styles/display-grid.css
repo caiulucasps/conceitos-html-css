@@ -1,0 +1,64 @@
+.container {
+    width: 800px;
+    height: 800px;
+
+    border: 5px solid green;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+
+    gap: 16px;
+
+    grid-template-areas:
+        'a a a'
+        'e f c'
+        'b d h'
+        'g g i'
+    ;
+}
+
+.container div {
+    color: #fff;
+    font-size: 32px;
+}
+
+.a {
+    background-color: #ff7f11;
+    grid-area: a;
+    /* grid-column: 1/4;
+
+    grid-row: 2/3; */
+}
+.b {
+    background-color: #ff1b1c;
+    grid-area: b;
+}
+.c {
+    background-color: #230c33;
+    grid-area: c;
+}
+.d {
+    background-color: #2b2d42;
+    grid-area: d;
+}
+.e {
+    background-color: #b88e8d;
+    grid-area: e;
+}
+.f {
+    background-color: #34435e;
+    grid-area: f;
+}
+.g {
+    background-color: #4cb5ae;
+    grid-area: g;
+}
+.h {
+    background-color: #003e1f;
+    grid-area: h;
+}
+.i {
+    background-color: #592e83;
+    grid-area: i;
+}
